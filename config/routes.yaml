@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+# routes.yaml or any other route configuration file
+app_task:
+    path: /task
+    controller: App\Controller\TaskController::index
+    methods: [GET]
